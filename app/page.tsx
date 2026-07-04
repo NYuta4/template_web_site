@@ -1,8 +1,17 @@
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
-    <main>
-      <h1>ドッグサロン わんわん</h1>
-      <p>ようこそ！</p>
-    </main>
+    <>
+      <Header />
+
+      <main>
+        <Hero />
+      </main>
+
+      <Footer />
+    </>
   );
 }
